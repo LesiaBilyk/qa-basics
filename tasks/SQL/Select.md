@@ -20,4 +20,4 @@ https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all
 - Q9: Select all columns in distirct order, sorted by City. (table should return the same result but in distinct order by City).
 - Q10: Select CustomerName column which name starts from 'A' (table should return only customers which name starts from 'A').
 
-My first change. 
+
