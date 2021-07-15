@@ -31,3 +31,4 @@ https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all
 - A8: SELECT LENGTH(DISTINCT Country) AS LengthOfCountry FROM Customers;
 - A9: SELECT * FROM Customers ORDER BY City; 
 - A10: SELECT CustomerName FROM Customers Where [CustomerName] like 'a%'
+Hello world!
