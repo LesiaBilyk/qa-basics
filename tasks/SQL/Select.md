@@ -20,4 +20,14 @@ https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all
 - Q9: Select all columns in distirct order, sorted by City. (table should return the same result but in distinct order by City).
 - Q10: Select CustomerName column which name starts from 'A' (table should return only customers which name starts from 'A').
 
-
+# Answers 
+- A1:
+- A2: SELECT City, Country FROM Customers;
+- A3: SELECT * FROM Customers WHERE Country = 'Germany';
+- A4: SELECT * FROM Customers WHERE NOT City  = 'Madrid';
+- A5: SELECT * FROM Customers WHERE CustomerID BETWEEN 15 AND 25;
+- A6: SELECT UPPER(CustomerName) AS UppercaseCustomerName FROM Customers;
+- A7: SELECT DISTINCT Country FROM Customers;
+- A8: SELECT LENGTH(DISTINCT Country) AS LengthOfCountry FROM Customers;
+- A9: SELECT * FROM Customers ORDER BY City; 
+- A10: SELECT CustomerName FROM Customers Where [CustomerName] like 'a%'
